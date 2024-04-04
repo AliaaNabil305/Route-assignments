@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-image: url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    height: 100vh;
+    
+    
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+   
+
+
+}
+
+
+.navbar{
+   height: 15vh;
+    background-color: rgba(10, 10, 10, 0.3);
+    
+  
+}
+.navbar .image-bakery{
+    display: flex;
+    float:left;
+    width: 16%;
+    margin-left: 50px;
+    
+}
+.navbar .image-bakery img{
+    display: flex;
+    float:left;
+    padding:20px;
+    width: 100%;
+    
+}
+
+.navbar .nav-links ul{
+    display: flex;
+    float:right;
+    margin-right: 40px;
+    margin-top:11px;
+    text-decoration: none;
+    padding-top:20px ;
+
+}
+.navbar .nav-links li{
+    list-style-type: none;
+
+}
+a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    
+
+}
+
+.clear-float{
+    clear: both;
+}
+
+.welcome{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 150px;
+    
+}
+
+
+.welcome h1{
+    font-size: 66px;
+    color: white;
+    padding-bottom: 18px;
+    font-family: "Alegreya";
+}
+.welcome p{
+    font-size: 32px;
+    width: 90%;
+    margin: auto;
+    color: white;
+    padding-bottom: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+
+}
+
+button{
+    padding: 20px 28px;
+    margin-top: 30px;
+    cursor:pointer;
+    margin-right: 10px;
+    font-size: 17px;
+}
+.btn2{
+    background: none;
+    border-color: white;
+    font-weight: bold;
+    color: white;
+    border-radius: 4px;
+}
+.btn1{
+   
+   background-color:#8e7754;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.who{
+    margin: auto;
+    width: 90%;
+    padding: 60px;
+}
+.who-image img{
+    float: left;
+    width: 50%;
+    padding-right: 60px;
+    margin-right: 30px;
+    
+}
+.who-text{
+    margin: auto;
+    width: 90%;
+    
+   
+}
+
+.who-text h2{
+    padding: 30px;
+    font-family: "Alegreya" , sans-serif ;
+    color: #303030;
+    font-weight: 400;
+    font-size: 32px;    
+}
+
+.who-text p{
+    padding-bottom: 30px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #1f1d1d;
+    line-height: 1.5;
+}
+.who-text ul{
+    list-style: none;
+}
+.who-text li{
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+.location{
+    margin-top: 60px;
+    padding: 60px;
+    float: left;
+    background-color: #f0eded;
+
+}
+
+.location-text{
+    float: left;
+    width:50%;
+    padding-right: 50px;
+    padding-top: 80px;
+}
+
+.location-text h2{
+    padding: 30px;
+    font-family: "Alegreya" , sans-serif ;
+    color: #303030;
+    font-weight: 400;
+    font-size: 32px;
+}
+.location-text p{
+    text-align: justify;
+    color: #838080;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.location-image img{
+    width: 50%;
+}
+
+.baking{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 60px;
+}
+.our-baking{
+    margin-bottom: 50px;
+}
+.our-baking h1{
+    margin-bottom: 30px;
+    font-weight: 200;
+    color: #303030;
+    font-family: "Alegreya";
+
+}
+.our-baking p{
+    color: #838080;
+   
+}
+.gallery-box{
+    float: left;
+    padding-right: 40px;
+    width: 33%;
+    margin: auto;
+}
+.gallery-box img{
+    width: 100%;
+}
+.gallery-box h2{
+    margin: 20px;
+    color: #3a3939;
+}
+
+.gallery-box p{
+    color: #838080;
+    text-align:center;
+    line-height: 1.5;
+
+}
+.Contact{
+    margin-top: 60px;
+    padding: 60px;
+    float: left;
+    background-color: #f0eded;
+
+}
+
+.Contact-text{
+    float: left;
+    width:50%;
+    padding-right: 50px;
+    padding-top: 80px;
+}
+
+.Contact-text h2{
+    margin-bottom: 30px;
+    font-family: "Alegreya" , sans-serif ;
+    color: #303030;
+    font-weight: 400;
+    font-size: 32px;
+}
+.Contact-text p{
+    text-align: justify;
+    color: #838080;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-right: 60px;
+}
+.Contact-text ol{
+    margin-right: 40px;
+    text-decoration: none;
+    padding:20px 40px ;
+    color: #838080;
+    line-height: 2.5;
+
+}
+
+
+.blog-map iframe{
+    width: 50%;
+}
+
+.footer{
+    background-color: #353434;
+    float: left;
+    width: 100%;
+
+    padding: 40px;
+
+ 
+
+}
+.footer-box{
+   float: left;
+    width: 22%;
+    margin-right: 20px;
+    padding-right: 20px;
+    line-height: 1.5;
+}
+.footer-box h3{
+    color: rgb(230, 226, 226);
+    margin-bottom: 20px;
+}
+
+.footer-box p{
+    color: #858282;
+    margin: 10px;
+
+}
+
+hr{
+    background-color: rgb(68, 66, 66);
+    border-style: none;
+    height: 1px;
+    width: 100%;
+}
+.bakery-img{
+    background-color: #1f1d1d;
+
+}
+.bb{
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    padding: 60px;
+}
+.bakery-img p{
+    color: #5e5b5b;
+}
+
+.bakery-img img{
+    width: 90%;  
+
+}
+
+
+
+
+/* .imagee img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes move{
+    0%{left: 0px;  top: 0px; transform: rotateY(0deg);}
+    50%{left: 800px; top: 0px; transform: rotateY(0deg);}
+    51%{left: 800px;  top: 0px; transform: rotateY(180deg);}
+    100%{left: 0px;  top: 0px; transform: rotateY(1800deg);}    
+} */
